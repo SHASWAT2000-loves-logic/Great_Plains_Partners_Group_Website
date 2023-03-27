@@ -7,7 +7,7 @@ function Team() {
   return (
     <section className="team_section">
       <div className="team_overlay">
-        <img className="team_overlay_image" src={require("../assets/team_overlay_img.jpg")} alt="Couldn't load image" />
+        <img className="team_overlay_image" src={require("../assets/team_overlay_img.jpg")} alt="" />
         <h1>Meet Our Team</h1>
       </div>
       <div className="team_heading">

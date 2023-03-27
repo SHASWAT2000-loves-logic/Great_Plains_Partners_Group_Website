@@ -6,7 +6,7 @@ function Partners() {
   return (
     <section className="partners_section">
       <div className="partners_overlay">
-        <img className="partners_overlay_image" src={require("../assets/partners_overlay_img.jpg")} alt="Couldn't load image" />
+        <img className="partners_overlay_image" src={require("../assets/partners_overlay_img.jpg")} alt="" />
         <h1>Our Partners/Affiliations</h1>
       </div>
 
