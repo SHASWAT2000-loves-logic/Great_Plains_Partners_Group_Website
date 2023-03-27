@@ -5,8 +5,7 @@
 
 */
 
-/* rgb(165, 75, 84) */
-/* rgb(121, 50, 56) */
+
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
@@ -48,7 +47,6 @@ html, body{
 }
 
 .gpp_logo{
-  /* width: 350px; */
   width: 450px;
   object-fit: cover;
   margin-left: 50px;
@@ -100,7 +98,6 @@ html, body{
   display: inline-block;
   text-decoration: none;
   color:#fff;
-  /* background-color: var(--website_sec_theme); */
   background-color: var(--website_main_theme);
   cursor: pointer;
   margin:0px 5px;
@@ -245,7 +242,6 @@ video{
   margin-left: 100px;
 }
 .portfolio_summary{
-  /* background-color: var(--website_sec_theme); */
   background-color: var(--website_main_theme);
   padding-bottom: 50px;
 }
@@ -291,7 +287,6 @@ video{
 .portfolio_summary_content h4{
   margin-top: 20px;
   font-size: 30px;
-  /* color: var(--website_sec_theme); */
   color:var(--website_main_theme);
   margin-bottom: 20px;
 }
@@ -320,10 +315,8 @@ video{
   border-radius: 100px;
   text-align: center;
   padding-left: 20px;
-  /* border-color: var(--website_sec_theme); */
   border-color: var(--website_main_theme);
   text-transform: uppercase;
-  /* color: var(--website_sec_theme); */
   color:var(--website_main_theme);
   font-size: 14px;
 }
@@ -348,7 +341,6 @@ video{
 
 .news_summary{
   padding-top: 70px;
-  /* padding-bottom: 40px; */
 }
 .news_summary_flex{
   display: flex;
@@ -401,7 +393,6 @@ video{
 .news_summary_content a{
   display: inline-block;
   margin:20px;
-  /* color:#404040; */
   color:var(--website_main_theme);
   line-height: 1.5;
   text-decoration: none;
