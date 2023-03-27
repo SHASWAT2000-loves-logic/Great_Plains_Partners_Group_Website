@@ -1,7 +1,4 @@
 
-# Link to website - 
-
-https://great-plains-partners-website.vercel.app/
 
 # Getting Started with Create React App
 
