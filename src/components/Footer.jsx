@@ -17,11 +17,11 @@ function Footer() {
         <div className="explore_links">
           <h1>Explore</h1>
           <div className="footer_short_underline"></div>
-          <a href="https://www.innovationnewsnetwork.com/highest-grade-rare-earth-deposit-to-date-identified-in-the-us/29539/"  target="_blank">Highest-grade rare earth deposit to date identified in the US</a>
-          <a href="https://www.technologyreview.com/2023/01/17/1065026/evs-recycling-batteries-10-breakthrough-technologies-2023/ " target="_blank">How old batteries will help power tomorrow EVs</a>
-          <a href="https://www.autoweek.com/news/a41822090/states-shooting-for-hydrogen-fuel-cell-hub/ " target="_blank">New Mexico is bucking to become a hydrogen power player</a>
-          <a href="https://hydrogen-central.com/the-most-abundant-chemical-universe-could-become-hot-commodity-hydrogen-fuel-cells-have-some-cost-barriers-upside-transportation-powering-homes-huge/ " target="_blank">The most abundant chemical in the universe could become a hot commodity</a>
-          <a href="https://www.scmp.com/comment/opinion/world/article/3191039/how-clean-energy-transition-exposes-world-new-vulnerabilities " target="_blank">How the clean energy transition exposes the world to new vulnerabilities</a>
+          <a href="https://www.innovationnewsnetwork.com/highest-grade-rare-earth-deposit-to-date-identified-in-the-us/29539/"  target="_blank" rel='noopener noreferrer'>Highest-grade rare earth deposit to date identified in the US</a>
+          <a href="https://www.technologyreview.com/2023/01/17/1065026/evs-recycling-batteries-10-breakthrough-technologies-2023/ " target="_blank" rel='noopener noreferrer'>How old batteries will help power tomorrow EVs</a>
+          <a href="https://www.autoweek.com/news/a41822090/states-shooting-for-hydrogen-fuel-cell-hub/ " target="_blank" rel='noopener noreferrer'>New Mexico is bucking to become a hydrogen power player</a>
+          <a href="https://hydrogen-central.com/the-most-abundant-chemical-universe-could-become-hot-commodity-hydrogen-fuel-cells-have-some-cost-barriers-upside-transportation-powering-homes-huge/ " target="_blank" rel='noopener noreferrer'>The most abundant chemical in the universe could become a hot commodity</a>
+          <a href="https://www.scmp.com/comment/opinion/world/article/3191039/how-clean-energy-transition-exposes-world-new-vulnerabilities " target="_blank" rel='noopener noreferrer'>How the clean energy transition exposes the world to new vulnerabilities</a>
         </div>
         <div className="gpp_contact">
           <h1>Quick Links</h1>
@@ -41,9 +41,9 @@ function Footer() {
          <div className="footer_follow_us">
           <h1>Follow Us</h1>
           <div className="footer_short_underline"></div>
-          <a href="https://linkedin.com" target="_blank"><FaLinkedin className="linkedIn_icon" /></a>
-          <a href="https://twitter.com" target="_blank"><FaTwitter className="twitter_icon" /></a>
-          <a href="https://youtube.com" target="_blank"><FaYoutube className="youtube_icon"/></a>
+          <a href="https://linkedin.com" target="_blank" rel='noopener noreferrer'><FaLinkedin className="linkedIn_icon" /></a>
+          <a href="https://twitter.com" target="_blank" rel='noopener noreferrer'><FaTwitter className="twitter_icon" /></a>
+          <a href="https://youtube.com" target="_blank" rel='noopener noreferrer'><FaYoutube className="youtube_icon"/></a>
          </div>
          <div className="footer_contact">
           <h1>Great Plains Partners</h1>

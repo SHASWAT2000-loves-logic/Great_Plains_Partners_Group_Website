@@ -53,52 +53,52 @@ function Home() {
             <div className="news_summary_grid">
               <div className="news_post_flex">
                 <div className="news_summary_img">
-                  <a href="https://sstp.org/wp-content/uploads/2023/03/SSTP-PARK-POST_MARCH_2023_FINAL.pdf " target="_blank"><img src = {require("../assets/news_post_0_img.jpg")} alt=""/></a>
+                  <a href="https://sstp.org/wp-content/uploads/2023/03/SSTP-PARK-POST_MARCH_2023_FINAL.pdf " target="_blank" rel='noopener noreferrer'><img src = {require("../assets/news_post_0_img.jpg")} alt=""/></a>
                   <div className="news_date">
                     <p>March 1, 2023</p>
                   </div>
                 </div>
                 <div className="news_summary_content">
-                  <a href="https://sstp.org/wp-content/uploads/2023/03/SSTP-PARK-POST_MARCH_2023_FINAL.pdf " target="_blank">Great Plains Partners Opens Office at Sandia Science & Technology Park</a>
+                  <a href="https://sstp.org/wp-content/uploads/2023/03/SSTP-PARK-POST_MARCH_2023_FINAL.pdf " target="_blank" rel='noopener noreferrer'>Great Plains Partners Opens Office at Sandia Science & Technology Park</a>
                   <p>Sandia Science & Technology Park</p>
                 </div>
               </div>
 
               <div className="news_post_flex">
                 <div className="news_summary_img">
-                  <a href="https://www.innovationnewsnetwork.com/highest-grade-rare-earth-deposit-to-date-identified-in-the-us/29539/" target="_blank"><img src = {require("../assets/news_post_1_img.jpg")} alt=""/></a>
+                  <a href="https://www.innovationnewsnetwork.com/highest-grade-rare-earth-deposit-to-date-identified-in-the-us/29539/" target="_blank" rel='noopener noreferrer'><img src = {require("../assets/news_post_1_img.jpg")} alt=""/></a>
                   <div className="news_date">
                     <p>February 3, 2023</p>
                   </div>
                 </div>
                 <div className="news_summary_content"> 
-                  <a href="https://www.innovationnewsnetwork.com/highest-grade-rare-earth-deposit-to-date-identified-in-the-us/29539/" target="_blank">Highest-grade rare earth deposit to date identified in the US</a>
+                  <a href="https://www.innovationnewsnetwork.com/highest-grade-rare-earth-deposit-to-date-identified-in-the-us/29539/" target="_blank" rel='noopener noreferrer'>Highest-grade rare earth deposit to date identified in the US</a>
                   <p>Innovation News Network</p>
                 </div>
               </div>
 
               <div className="news_post_flex">
                 <div className="news_summary_img">
-                  <a href="https://www.technologyreview.com/2023/01/17/1065026/evs-recycling-batteries-10-breakthrough-technologies-2023/ " target="_blank" ><img src = {require("../assets/news_post_2_img.webp")} alt=""/></a>
+                  <a href="https://www.technologyreview.com/2023/01/17/1065026/evs-recycling-batteries-10-breakthrough-technologies-2023/ " target="_blank" rel='noopener noreferrer'><img src = {require("../assets/news_post_2_img.webp")} alt=""/></a>
                   <div className="news_date">
                     <p>January 17, 2023</p>
                   </div>
                 </div>
                 <div className="news_summary_content">
-                  <a href="https://www.technologyreview.com/2023/01/17/1065026/evs-recycling-batteries-10-breakthrough-technologies-2023/ " target="_blank">How old batteries will help power tomorrow EVs</a>
+                  <a href="https://www.technologyreview.com/2023/01/17/1065026/evs-recycling-batteries-10-breakthrough-technologies-2023/ " target="_blank" rel='noopener noreferrer'>How old batteries will help power tomorrow EVs</a>
                   <p>MIT Technology Review</p>
                 </div>
               </div>
 
               <div className="news_post_flex">
                 <div className="news_summary_img">
-                  <a href="https://www.autoweek.com/news/a41822090/states-shooting-for-hydrogen-fuel-cell-hub/ " target="_blank" ><img src={require("../assets/news_post_3_img.jpg")} alt=""/></a>
+                  <a href="https://www.autoweek.com/news/a41822090/states-shooting-for-hydrogen-fuel-cell-hub/ " target="_blank" rel='noopener noreferrer'><img src={require("../assets/news_post_3_img.jpg")} alt=""/></a>
                   <div className="news_date">
                     <p>November 1, 2022</p>
                   </div>
                 </div>
                 <div className="news_summary_content">
-                  <a href="https://www.autoweek.com/news/a41822090/states-shooting-for-hydrogen-fuel-cell-hub/ " target="_blank">New Mexico is bucking to become a hydrogen power player</a>
+                  <a href="https://www.autoweek.com/news/a41822090/states-shooting-for-hydrogen-fuel-cell-hub/ " target="_blank" rel='noopener noreferrer'>New Mexico is bucking to become a hydrogen power player</a>
                   <p>Autoweek</p>
                 </div>
               </div>

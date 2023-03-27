@@ -7,7 +7,7 @@ function About() {
   return (
     <section className="about_section">
       <div className="about_overlay">
-        <img className="about_overlay_image" src={require("../assets/about_overlay_img.jpg")} alt="Couldn't load image" />
+        <img className="about_overlay_image" src={require("../assets/about_overlay_img.jpg")} alt="" />
         <h1>About Us</h1>
       </div>
 
