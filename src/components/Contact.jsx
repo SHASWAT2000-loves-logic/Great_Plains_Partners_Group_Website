@@ -20,25 +20,24 @@ function Contact() {
             <div className="name_input">
               <div className="first-name">
                 <label htmlFor="first_name">First name</label>
-                <input type="text" name="first_name" id="" />
+                <input type="text" name="first_name" id="" maxLength="20"/>
               </div>
               <div className="last-name">
                 <label htmlFor="last_name">Last name</label>
-                <input type="text" name="last_name" id="" />
+                <input type="text" name="last_name" id="" maxLength="20"/>
               </div>
             </div>
             <div className="email_input">
               <label htmlFor="email">Email</label>
-              <input type="email" name="email" id=""/>
+              <input type="email" name="email" id="" maxLength="50"/>
             </div>
             <div className="email_input">
               <label htmlFor="email">Subject</label>
-              <input type="text" name="subject" id="" />
+              <input type="text" name="subject" id="" maxLength="100"/>
             </div>
             <div className="message_input">
               <label htmlFor="message">Message</label>
-              {/* <textarea name="message" id="" cols="40" rows="4" onInput={handleMessageInput}></textarea> */}
-              <textarea name="message" id="" cols="40" rows="4"></textarea>
+              <textarea name="message" id="" cols="40" rows="4" maxLength="2000"></textarea>
             </div>
             <div>
               <button type="submit" className="submit_btn">Send Message</button>

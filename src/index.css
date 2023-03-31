@@ -731,31 +731,27 @@ video{
 }
 
 .team_flex{
-  display: flex;
-  /* margin: 150px; */
-  /* margin-right: 100px; */
-  /* margin-top: 60px; */
-  /* margin-top: 60px; */
-  /* margin-bottom: 150px; */
-  /* margin-left: 50px; */
-  /* margin-right: 50px; */
-  justify-content: center;
-  align-items: center;
-  height: 100%;
+  margin-top: 100px;
   margin-bottom: 150px;
-  margin-left: 50px;
+  margin-left: 120px;
+  margin-right: 50px;
+  display: grid;
+  grid-template-columns:repeat(4, 1fr);
+  column-gap: 2rem;
 }
 
 .team_flex img{
-  width: 240px;
-  height: 300px;
+  width: 90%;
+  height: 350px;
   object-fit:cover;
 }
-.robert, .art, .dharish, .mark{
+
+.team_member_content{
   display: flex;
   flex-direction: column;
-  /* margin-right: 100px; */
-  margin-right: 70px;
+}
+.mark{
+  margin-right: 0px;
 }
 .team_flex .name{
   padding-top: 10px;
@@ -767,7 +763,6 @@ video{
   padding-top: 5px;
   padding-bottom: 10px;
   text-transform: uppercase;
-  /* color: var(--website_sec_theme); */
   color:#000;
   font-size: 15px;
   font-family: 'Noto Serif', serif;
@@ -788,6 +783,7 @@ video{
   line-height: 1.5;
   color:#1F1F1FCC;
   text-align: left;
+  padding-right: 30px;
 }
 
 .team_end_line{
