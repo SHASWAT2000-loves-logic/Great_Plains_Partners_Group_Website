@@ -6,16 +6,7 @@ function Contact() {
   // message word limit to 250 words
   // sent message notification
 
-  // const handleMessageInput = (e) => {
-  //   let maxLength = 10;
-  //   let str=e.target.value;
-  //   str=str.trim();
-  //   str = str.replace(/\s\s+/g, " ");
-  //   str=str.split(" ");
-  //   if(str.length>maxLength){
-  //     alert("there is a problem");
-  //   }
-  // }
+
   return (
     <section className="contact_section">
       <div className="contact_section_flex">
@@ -24,7 +15,8 @@ function Contact() {
           <p>Need to get in touch with us? Please fill out the form.</p>
         </div>    
         <div className="contact_form">
-          <form>
+          <form name="gpp_contact_form" method="POST">
+            <input type="hidden" name="form-name" value="gpp_contact_form" />
             <div className="name_input">
               <div className="first-name">
                 <label htmlFor="first_name">First name</label>
