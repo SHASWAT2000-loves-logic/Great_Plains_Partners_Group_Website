@@ -2,10 +2,11 @@
 /*
 TO-DO 
 
-1. Comments
-2. Add box shadow property to the link
+1. Add box shadow property to the link
 
 */
+
+
 import { Link } from "react-router-dom"
 import {FaArrowCircleRight} from "react-icons/fa"
 import ScrollToTop from "react-scroll-to-top"
@@ -29,7 +30,7 @@ function Home() {
           <div className="about_underline"></div>
           <div className="about_summary_grid">
             <div className="about_summary_content">
-              <p>Great Plains Partners' (GPP) strategy is to identify and acquire nascent technologies of commercial promise including those from research universities and national laboratories within the historically limited funding phases of TRL 4-6 (dubbed the funding “Valley of Death”) and allocate resources to rapidly mature these technologies for industry adoption.   </p>
+              <p>Great Plains Partners' (GPP) strategy is to identify and acquire nascent technologies of commercial promise including those from research universities and national laboratories within the historically limited funding phases of Technology Readiness Level (TRL) 4-6 (dubbed the funding “Valley of Death”) and allocate resources to rapidly mature these technologies for industry adoption.   </p>
             </div>
             <img src={require("../assets/about_summary_img.jpg")} alt="" />
           </div>
@@ -38,6 +39,7 @@ function Home() {
         <div className="portfolio_summary">
           <h1>Portfolio</h1>
           <div className="portfolio_underline"></div>
+          <p className="portfolio_note"><span className="bold_note">Please note</span>: Due to the sensitivity/classified nature of some of our technologies/partners, Great Plains Partners does not disclose all its investments and assets.</p>
           <div className="portfolio_summary_content">
             <img src={require("../assets/portfolio_summary_img.jpg")} alt="" />
             <h4>Critical Materials LLC</h4>

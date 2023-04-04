@@ -10,7 +10,7 @@ function Strategy() {
       </div>
 
       <div className="strategy_heading">
-        <p>Great Plains Partners' strategy is to identify and acquire nascent technologies of commercial promise including those from research universities and national laboratories within the historically limited funding phases of TRL 4-6 (dubbed the funding “Valley of Death”) and allocate resources to rapidly mature these technologies for industry adoption.</p>
+        <p>Great Plains Partners' strategy is to identify and acquire nascent technologies of commercial promise including those from research universities and national laboratories within the historically limited funding phases of Technology Readiness Level (TRL) 4-6 (dubbed the funding “Valley of Death”) and allocate resources to rapidly mature these technologies for industry adoption.</p>
       </div>
       <div className="strategy_main_img">
         <img src={require("../assets/strategy_1_image.png")} alt="" />

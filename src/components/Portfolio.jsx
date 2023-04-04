@@ -16,6 +16,7 @@ function Portfolio() {
       
       <div className="portfolio_heading">
         <p>Great Plain Partners focuses on providing resources to mature and transition innovations to our clients in innovative technologies, including nascent technologies stemming from national laboratories and research institutions.</p>
+        <p className="portfolio_note_section"><span className="bold_note">Please note</span>: Due to the sensitivity/classified nature of some of our technologies/partners, Great Plains Partners does not disclose all its investments and assets.</p>
       </div>
       <div className="portfolio_comp">
         <div className="comp_image">

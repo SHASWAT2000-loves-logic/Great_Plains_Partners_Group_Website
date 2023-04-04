@@ -1,5 +1,5 @@
 
-
+// increase length of the container in about page so that content fits
 
 import ScrollToTop from "react-scroll-to-top"
 
@@ -47,7 +47,7 @@ function About() {
                 <h2>Strategy</h2>
               </div>
               <div className="flip-card-back">
-                <p>GPP’s strategy is to identify and acquire nascent technologies of commercial promise including those from research universities and national laboratories within the historically limited funding phases of TRL 4-6 (dubbed the funding “Valley of Death”) and allocate resources to rapidly mature these technologies for industry adoption.   </p>
+                <p>GPP’s strategy is to identify and acquire nascent technologies of commercial promise including those from research universities and national laboratories within the historically limited funding phases of Technology Readiness Level (TRL) 4-6 (dubbed the funding “Valley of Death”) and allocate resources to rapidly mature these technologies for industry adoption.   </p>
               </div>
             </div>
           </div>

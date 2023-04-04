@@ -1,0 +1,9 @@
+@media only screen and (min-width:1300px) and (max-width:1430px){
+    .flip-card{
+        width: 600px;
+        height: 445px;
+    }
+    .footer_pitch p{
+        margin-bottom: 30px;
+    }
+}

@@ -20,6 +20,9 @@ html, body{
   font-family: 'Roboto', sans-serif;
   background-color: #f1f1f1;
 }
+body{
+  overflow-x: hidden;
+}
 :root{
   /* --website_main_theme: #037291; */
   --website_main_theme: rgb(121, 50, 56);
@@ -42,7 +45,8 @@ html, body{
 }
 
 .gpp_logo{
-  width: 450px;
+  /* width: 450px; */
+  width: 65%;
   object-fit: cover;
   margin-left: 50px;
   margin-top: 10px;
@@ -240,6 +244,9 @@ video{
   background-color: var(--website_main_theme);
   padding-bottom: 50px;
 }
+.bold_note{
+  font-weight: bold;
+}
 .portfolio_summary h1{
   margin-top: 70px;
   text-align: center;
@@ -248,10 +255,33 @@ video{
   font-size: 36px;
   font-family: 'Ruda', sans-serif;
   padding-bottom: 30px;
-  margin-left: 570px;
-  margin-right: 570px;
   padding-top: 80px;
 }
+
+.portfolio_note{
+  margin-bottom: 50px;
+  color:#fff;
+  margin-left: 200px;
+  margin-right: 200px;
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: justify;
+  font-family: 'Noto Serif', serif;
+  font-family: 'Ruda', sans-serif;
+}
+
+.techaccel{
+  text-decoration: none;
+  background-color: #fff;
+  color:#333;
+  font-size: 16px;
+  padding: 8px 12px;
+  border-radius: 5px;
+}
+.techaccel:hover{
+  opacity: 0.8;
+}
+
 .portfolio_underline{
   margin: auto;
   width: 90px;
@@ -496,8 +526,9 @@ video{
 .flip-card {
   background-color: transparent;
   width: 600px;
-  height: 320px;
-  height: 325px;
+  /* width: 600px; */
+  height: 385px;
+  /* height: 445px; */
   perspective: 1000px;
   text-align: justify;
 }
@@ -657,13 +688,27 @@ video{
   font-family: 'Noto Serif', serif;
   font-family: 'Ruda', sans-serif;
 }
+.portfolio_note_section{
+  margin-top: 30px;
+}
+.techaccel_link{
+  text-decoration: none;
+  background-color: var(--website_sec_theme);
+  color:#fff;
+  padding: 8px 12px;
+  font-size: 16px;
+  border-radius: 5px;
+}
+.techaccel_link:hover{
+  opacity: 0.8;
+}
 .portfolio_comp{
   display: flex;
   margin-left: 100px;
   margin-right: 100px;
-  /* margin-bottom: 150px; */
   margin-bottom: 30px;
 }
+
 .portfolio_comp img{
   width: 90%;
   height: 100%;
@@ -896,7 +941,6 @@ video{
 }
 .news_post_content .post_intro{
   padding-top: 10px;
-  /* color:rgba(31,31,31,0.6); */
   color:black;
   font-family: 'Noto Serif', serif;
   font-family: 'Ruda', sans-serif;
@@ -908,11 +952,11 @@ video{
   margin-top: 40px;
   text-align: right;
   margin-bottom: 20px;
+  transition: all 5s ease-in-out;
 }
 .news_post_content .main_post_link a{
   text-transform: uppercase;
   color:#fff;
-  /* background-color: var(--website_sec_theme); */
   background-color: var(--website_main_theme);
   padding:15px;
   border-radius: 5px;
@@ -943,6 +987,9 @@ video{
   margin-left: 100px;
   margin-right: 100px;
   justify-content: space-between;
+}
+.contact_content{
+  margin-right: 100px;
 }
 .contact_content h1{
   font-family: 'Noto Serif', serif;
@@ -978,8 +1025,8 @@ video{
   border-radius: 5px;
   border:1px solid silver;
   font-size: 20px;
-
 }
+
 .contact_form .name_input{
   display: flex;
   margin-bottom: 20px;
@@ -1004,6 +1051,12 @@ video{
 }
 textarea:focus, input:focus{
   outline: none;
+  border: 2px solid var(--website_main_theme);
+}
+label::after{
+  content: "*";
+  margin-left: 5px;
+  color:red;
 }
 .submit_btn{
   font-size: 18px;
@@ -1034,6 +1087,9 @@ textarea:focus, input:focus{
   opacity: 0.5;
 }
 
+.footer_section{
+  overflow-x: hidden;
+}
 
 .footer_section h1{
   color:var(--website_main_theme);
@@ -1121,6 +1177,7 @@ textarea:focus, input:focus{
   color: #fff;
   line-height: 1.5;
   margin-bottom: 50px;
+  /* margin-bottom: 30px; */
   margin-left: 100px;
 }
 
@@ -1147,9 +1204,8 @@ textarea:focus, input:focus{
 
 .gpp_logo_img img{
   margin-top: 100px;
-  /* width: 500px; */
-  width: 450px;
-  /* height: 200px; */
+  /* width: 450px; */
+  width: 90%;
 }
 .linkedIn_icon, .twitter_icon, .youtube_icon{
   font-size: 32px;
@@ -1258,7 +1314,6 @@ textarea:focus, input:focus{
   text-align: center;
   color:var(--website_main_theme);
   margin-bottom: 30px;
-  /* font-family: 'Noto Serif', serif; */
   font-family: 'Ruda', sans-serif;
   font-size: 30px;
 }
@@ -1269,7 +1324,6 @@ textarea:focus, input:focus{
   font-size: 20px;
 }
 .privacy_policy .privacy_address {
-  /* margin-top: -20px; */
   margin-bottom: 20px;
 }
 .privacy_policy .privacy_address p{
@@ -1296,7 +1350,6 @@ textarea:focus, input:focus{
   /* background-color: var(--website_main_theme); */
   /* background-color: #00acee; */
   background-color: #999;
-  /* background-color: #fff; */
   width: 100vw;
   padding: 10px 0px;
 }
@@ -1313,7 +1366,6 @@ textarea:focus, input:focus{
 .privacy_policy_button{
   border: none;
   background-color: var(--website_main_theme);
-  /* background-color: red; */
   color:#fff;
   /* padding: 10px 20px; */
   padding: 5px 10px;
@@ -1324,3 +1376,24 @@ textarea:focus, input:focus{
 .privacy_policy_button:hover{
   opacity: 0.8;
 }
+
+.success_message{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #121212;
+  color:#fff;
+}
+.success_message h1{
+  font-family: 'Raleway', sans-serif; 
+  font-size: 44px;
+  margin-bottom: 30px;
+}
+.success_message p{
+  font-size: 24px;
+  margin-bottom: 50px;
+}
+
+
