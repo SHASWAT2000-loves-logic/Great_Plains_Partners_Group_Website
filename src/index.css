@@ -865,8 +865,9 @@ video{
 }
 .partners_flex{
   display: flex;
-  margin-left: 380px;
-  margin-right: 100px;
+  /* margin-left: 380px; */
+  /* margin-right: 100px; */
+  justify-content: center;
   margin-bottom: 80px;
 }
 
@@ -877,11 +878,16 @@ video{
 }
 .partners_flex .partners_img_2{
   width: 269px;
+  margin-right: 20px;
+}
+.partners_img_3{
+  display: flex;
+  justify-content: center;
 }
 .partners_img_3 img{
-  margin: auto;
-  display: block;
-  width: 800px;
+  /* margin: auto; */
+  /* display: block; */
+  width: 900px;
 }
 
 
