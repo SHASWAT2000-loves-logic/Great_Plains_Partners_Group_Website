@@ -5,8 +5,6 @@ function Contact() {
   // make a captcha after user has clicked on send message
   // custom success message
 
-// email authentication
-// asterisk for required fields - all of them
 
 
   return (
@@ -50,7 +48,7 @@ function Contact() {
 
       </div>
       <div className="contact_end_line"></div>
-      <ScrollToTop smooth top={400} color="#f1f1f1" style={{backgroundColor:"rgb(121, 50, 56)", height:"50px"}}/>
+      <ScrollToTop smooth top={400} color="#f1f1f1" style={{backgroundColor:"rgb(121, 50, 56)", height:"50px"}} className="scroll_to_top"/>
     </section>
   )
 

@@ -58,7 +58,7 @@ function About() {
 
       
      
-      <ScrollToTop smooth top={550} color="#f1f1f1" style={{backgroundColor:"rgb(121, 50, 56)", height:"50px"}}/>
+      <ScrollToTop smooth top={550} color="#f1f1f1" style={{backgroundColor:"rgb(121, 50, 56)", height:"50px"}} className="scroll_to_top"/>
       
 
     </section>

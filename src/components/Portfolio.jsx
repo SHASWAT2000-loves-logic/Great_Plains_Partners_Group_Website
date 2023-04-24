@@ -23,20 +23,20 @@ function Portfolio() {
           <img src={require("../assets/Critical_Materials.png")} alt="house" />
         </div>
         <div className="comp_content">
-          <p>
+          <div className="read_more_flex">
             {showMore ? <CriticalMaterials/>: orgText}
             <button 
               className="read_more"
               onClick={() => setShowMore(!showMore)}>
               {showMore ? "Show less" : "Read more..."}
             </button>
-        </p>
+          </div>
         </div>
       </div>
 
       <div className="about_end_line"></div>
 
-      <ScrollToTop smooth top={400} color="#f1f1f1" style={{backgroundColor:"rgb(121, 50, 56)", height:"50px"}}/>
+      <ScrollToTop smooth top={400} color="#f1f1f1" style={{backgroundColor:"rgb(121, 50, 56)", height:"50px"}} className="scroll_to_top"/>
       
     </section>
   )

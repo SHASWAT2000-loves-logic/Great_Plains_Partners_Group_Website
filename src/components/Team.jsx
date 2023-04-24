@@ -71,7 +71,7 @@ function Team() {
 
       <div className="team_end_line"></div>
 
-      <ScrollToTop smooth top={500} color="#f1f1f1" style={{backgroundColor:"rgb(121, 50, 56)", height:"50px"}}/>
+      <ScrollToTop smooth top={500} color="#f1f1f1" style={{backgroundColor:"rgb(121, 50, 56)", height:"50px"}} className="scroll_to_top"/>
       
     </section>
   )

@@ -1,13 +1,14 @@
 import { Link } from "react-router-dom"
 import {FaLinkedin, FaTwitter, FaYoutube} from "react-icons/fa"
 
-// bizdev@greatplainsventures.com
-
 function Footer() {
+  
+
   const handleClick = () =>{
     const cont = document.getElementById("privacy_notice");
     cont.style.display="none";
   }
+
   return (
     <section className="footer_section">
       <div className="footer_flex">
@@ -34,34 +35,39 @@ function Footer() {
           <Link to="/partners" className="footer_links">Partners</Link>
         </div>
       </div>
-
+  
       <div className="footer_footer">
         <div className="footer_separator"></div>
         <div className="footer_flex_2">
-         <div className="footer_follow_us">
-          <h1>Follow Us</h1>
-          <div className="footer_short_underline"></div>
-          <a href="https://linkedin.com" target="_blank" rel='noopener noreferrer'><FaLinkedin className="linkedIn_icon" /></a>
-          <a href="https://twitter.com" target="_blank" rel='noopener noreferrer'><FaTwitter className="twitter_icon" /></a>
-          <a href="https://youtube.com" target="_blank" rel='noopener noreferrer'><FaYoutube className="youtube_icon"/></a>
-         </div>
-         <div className="footer_contact">
-          <h1>Great Plains Partners</h1>
-          <div className="footer_short_underline"></div>
-          <p>Great Plains Partners LLC</p> 
-          <p>1800 Kimball Ave-Suite 150</p>
-          <p className="address">Manhattan, KS 66502-3373</p>
-          <Link to="/contact" className="footer_contact_link">Contact Us</Link>
-         </div>
-         <div className="footer_pitch">
-          <h1>Send us your pitch deck</h1>
-          <div className="footer_short_underline"></div>
-          <p>We invite patent-based technology/startups in the (pre-)seed stage to send us their pitch deck.</p>
-          <Link to="/pitch-deck" className="footer_contact_link">Send Us Your Pitch Deck</Link>
-         </div>
+          <div className="footer_follow_us">
+            <h1>Follow Us</h1>
+            <div className="footer_short_underline"></div>
+            <div className="social_media_links">
+              <a href="https://linkedin.com" target="_blank" rel='noopener noreferrer'><FaLinkedin className="linkedIn_icon" /></a>
+              <a href="https://twitter.com" target="_blank" rel='noopener noreferrer'><FaTwitter className="twitter_icon" /></a>
+              <a href="https://youtube.com" target="_blank" rel='noopener noreferrer'><FaYoutube className="youtube_icon"/></a>
+            </div>
+          </div>
+
+          <div className="footer_contact">
+            <h1>Great Plains Partners</h1>
+            <div className="footer_short_underline"></div>
+            <p>Great Plains Partners LLC</p> 
+            <p>1800 Kimball Ave-Suite 150</p>
+            <p className="address">Manhattan, KS 66502-3373</p>
+            <Link to="/contact" className="footer_contact_link">Contact Us</Link>
+          </div>
+          <div className="footer_pitch">
+            <h1 className="pitch_heading">Send us your pitch deck</h1>
+            <div className="footer_short_underline"></div>
+            <p>We invite patent-based technology/startups in the (pre-)seed stage to send us their pitch deck.</p>
+            <div className="pitch_link_holder">
+              <Link to="/pitch-deck" className="pitch_link">Send Us Your Pitch Deck</Link>
+            </div>
+          </div>
         </div>
       </div>
-
+  
       <div className="privacy_policy_notice" id="privacy_notice">
         <p>By visiting our website, you agree to our <Link to="/privacy-policy" className="privacy_policy_link">Privacy Policy</Link><button className="privacy_policy_button" onClick={handleClick} >Ok</button></p>
       </div>

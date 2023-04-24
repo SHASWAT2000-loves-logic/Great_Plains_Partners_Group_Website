@@ -44,7 +44,9 @@ function Home() {
             <img src={require("../assets/portfolio_summary_img.jpg")} alt="" />
             <h4>Critical Materials LLC</h4>
             <p>GPP focuses on providing resources to mature and transition innovations to our clients in innovative technologies, including nascent technologies stemming from national laboratories and research institutions.  </p>
-            <Link to="/portfolio" className="portfolio_link">Learn More</Link>
+            <div className="portfolio_link_holder">
+              <Link to="/portfolio" className="portfolio_link">Learn More</Link>
+            </div>
           </div>
         </div>
 
@@ -112,7 +114,7 @@ function Home() {
         </div>
 
        
-        <ScrollToTop smooth top={700} color="#f1f1f1" style={{backgroundColor:"rgb(121, 50, 56)", height:"50px"}}/>
+        <ScrollToTop smooth top={700} color="#f1f1f1" style={{backgroundColor:"rgb(121, 50, 56)", height:"50px"}} className="scroll_to_top"/>
       </section>  
   )
 }
