@@ -1,4 +1,5 @@
 
+// This is the pitch deck page and is displayed when the user clicks on the "Send us your pihc deck" button
 
 function PitchDeck() {
   return (

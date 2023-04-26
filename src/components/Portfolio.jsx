@@ -4,6 +4,10 @@ import CriticalMaterials from "./CriticalMaterials";
 import ScrollToTop from "react-scroll-to-top"
 
 function Portfolio() {
+
+  // for tracking whether the "read more" button is clicked or not 
+  // initially it's not clicked, so we start with false
+
   const [showMore, setShowMore] = useState(false);
   const orgText = "Critical Materials was established to provide a new domestic source of rare earth elements through the extraction from coal waste and other metal hosting materials in an environmentally “green” manner.";
   
@@ -24,10 +28,12 @@ function Portfolio() {
         </div>
         <div className="comp_content">
           <div className="read_more_flex">
+            {/* if showMore is true, then the CriticalMaterials component is displayed, otherwise less content is shown */}
             {showMore ? <CriticalMaterials/>: orgText}
             <button 
               className="read_more"
               onClick={() => setShowMore(!showMore)}>
+                {/* if showMore is true, then "show less" button is displayed and vice versa  */}
               {showMore ? "Show less" : "Read more..."}
             </button>
           </div>

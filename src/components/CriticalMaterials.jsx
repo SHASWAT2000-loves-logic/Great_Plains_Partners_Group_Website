@@ -1,4 +1,5 @@
 
+// This component is part of the porfolio page and is displayed when the user clicks on the read more button
 
 function CriticalMaterials() {
   return (

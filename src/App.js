@@ -1,3 +1,5 @@
+// The App component is the parent component and contains all the other components aka pages.
+
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
@@ -14,10 +16,19 @@ import ScrollToTop from "./components/ScrollToTop";
 import PitchDeck from "./components/PitchDeck";
 import PrivacyPolicy from "./components/PrivacyPolicy";
 function App() {
+  /*
+  1. This is the structure of the website
+  2. Router is used for navigation links 
+  3. ScrollToTop is the button that is clicked to reach the top of the page
+  4. Route tags are the individual pages of the website. 
+  5. path is the link assigned to each individual page in the website
+  */
+
   return (
     <Router>
       <ScrollToTop />
       <Routes>
+        {/* home page */}
         <Route
           path="/"
           element={
@@ -28,6 +39,7 @@ function App() {
             </>
           }
         />
+        {/* about page  */}
         <Route
           path="/about"
           element={
@@ -39,6 +51,8 @@ function App() {
           }
         />
 
+        {/* strategy page */}
+
         <Route
           path="/strategy"
           element={
@@ -49,6 +63,9 @@ function App() {
             </>
           }
         />
+
+        {/* portfolio page */}
+
         <Route
           path="/portfolio"
           element={
@@ -59,6 +76,9 @@ function App() {
             </>
           }
         />
+
+        {/* team page */}
+
         <Route
           path="/team"
           element={
@@ -69,6 +89,9 @@ function App() {
             </>
           }
         />
+
+        {/* partners page */}
+
         <Route
           path="/partners"
           element={
@@ -79,6 +102,9 @@ function App() {
             </>
           }
         />
+
+        {/* news page */}
+
         <Route
           path="/news"
           element={
@@ -89,6 +115,9 @@ function App() {
             </>
           }
         />
+
+        {/* contact page */}
+
         <Route
           path="/contact"
           element={
@@ -99,6 +128,9 @@ function App() {
             </>
           }
         />
+
+        {/* pitch deck page */}
+
         <Route
           path="/pitch-deck"
           element={
@@ -109,6 +141,9 @@ function App() {
             </>
           }
         />
+
+        {/* privacy policy page */}
+
         <Route
           path="/privacy-policy"
           element={
@@ -119,6 +154,8 @@ function App() {
             </>
           }
         />
+
+        {/* for any other subpage of the website apart from the above, the page not found error is shown */}
 
         <Route path="/*" element={<NotFound />}></Route>
       </Routes>

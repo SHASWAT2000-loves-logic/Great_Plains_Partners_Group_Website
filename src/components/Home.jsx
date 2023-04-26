@@ -1,11 +1,5 @@
 
-/*
-TO-DO 
-
-1. Add box shadow property to the link
-
-*/
-
+// This is the home page or the landing page
 
 import { Link } from "react-router-dom"
 import {FaArrowCircleRight} from "react-icons/fa"
@@ -15,7 +9,13 @@ function Home() {
   
   return (
       <section className="home_page">
+
+        {/* website video */}
+
         <video src={require("../assets/website_video.mp4")} autoPlay muted loop></video>
+
+        {/* home page overlay */}
+
         <div className="home_section">
           <div className="home_content">
             <p className="comp_name">Great Plains Partners</p>
@@ -24,6 +24,8 @@ function Home() {
             <Link to="/about" className="about_link"><FaArrowCircleRight className="about_icon"/>Read More</Link>
           </div>
         </div>
+
+        {/* about summary content */}
 
         <div className="about_summary">
           <h1>How We Operate</h1>
@@ -35,6 +37,8 @@ function Home() {
             <img src={require("../assets/about_summary_img.jpg")} alt="" />
           </div>
         </div>
+
+        {/* portfolio summary content */}
 
         <div className="portfolio_summary">
           <h1>Portfolio</h1>
@@ -49,6 +53,8 @@ function Home() {
             </div>
           </div>
         </div>
+
+        {/* news summary content - has 4 news posts */}
 
         <div className="news_summary">
           <div className="news_summary_flex">
@@ -113,7 +119,8 @@ function Home() {
           </div>
         </div>
 
-       
+        {/* scroll to top button */}
+
         <ScrollToTop smooth top={700} color="#f1f1f1" style={{backgroundColor:"rgb(121, 50, 56)", height:"50px"}} className="scroll_to_top"/>
       </section>  
   )

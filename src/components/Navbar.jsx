@@ -1,35 +1,43 @@
 
 
-/*
-TO-DO 
+// This is the navbar component. There are 2 ways it will be displayed depending on the screen width. 
+// If the width of the device is less than 500x aka mobile device, then there will be a hamburger menu
+// if the width is greater than 500px aka tablets, laptops then the horizontal navbar at the top right is displayed. 
+// The navbar is positioned fixed, which means that it is not scrollable and will always appear at the top
 
-1. Comments
-2. Transition effect upon hovering
-
-*/
 import { useState, useEffect } from "react";
 import { Link, NavLink } from "react-router-dom"
 import HamburgerMenu from "./HamburgerMenu";
 
 function Navbar() {
 
+  // storing width of the device and checking whether the width is greater or less than 500px
+
   const [isLaptop, setLaptop] = useState(window.innerWidth > 500);
+
+  // isLaptop variable is updated here depending on the width of the device
 
   const updateMedia = () => {
     setLaptop(window.innerWidth > 500);
   };
+
+  // checking when the window is resizing aka when the width of the device is decreasing from any device to mobile 
 
   useEffect(() => {
     window.addEventListener("resize", updateMedia);
     return () => window.removeEventListener("resize", updateMedia);
   });
 
+  // for mobile devices - hamburger menu is displayed
 
   if(!isLaptop){
     return(
       <HamburgerMenu/>
     )
   }
+
+  // for all other devices 
+
   else{
     return (
       <div className="navbar">

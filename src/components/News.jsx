@@ -1,5 +1,7 @@
 
-// uneven length of the box
+
+// This is the news page
+
 import ScrollToTop from "react-scroll-to-top"
 
 function News() {
@@ -11,6 +13,9 @@ function News() {
       </div>
       <div className="news_wrapper">
         <div className="news_content">
+
+          {/* first post */}
+
           <div className="news_posts">
             <a href="https://sstp.org/wp-content/uploads/2023/03/SSTP-PARK-POST_MARCH_2023_FINAL.pdf " target="_blank" rel='noopener noreferrer'><img src = {require("../assets/news_post_0_img.jpg")} alt="" className="post_image"/></a>
             <div className="news_post_content">
@@ -21,6 +26,9 @@ function News() {
               <div className="main_post_link"><a href="https://sstp.org/wp-content/uploads/2023/03/SSTP-PARK-POST_MARCH_2023_FINAL.pdf " target="_blank" rel='noopener noreferrer'>View Full Article</a></div>
             </div>
           </div>
+
+          {/* second post */}
+
           <div className="news_posts">
             <a href="https://www.innovationnewsnetwork.com/highest-grade-rare-earth-deposit-to-date-identified-in-the-us/29539/" target="_blank" rel='noopener noreferrer'><img src = {require("../assets/news_post_1_img.jpg")} alt="" className="post_image"/></a>
             <div className="news_post_content">
@@ -31,6 +39,9 @@ function News() {
               <div className="main_post_link"><a href="https://www.innovationnewsnetwork.com/highest-grade-rare-earth-deposit-to-date-identified-in-the-us/29539/ " target="_blank" rel='noopener noreferrer'>View Full Article</a></div>
             </div>
           </div>
+
+          {/* third post */}
+
           <div className="news_posts">
             <a href="https://www.technologyreview.com/2023/01/17/1065026/evs-recycling-batteries-10-breakthrough-technologies-2023/ " target="_blank" rel='noopener noreferrer'><img src = {require("../assets/news_post_2_img.webp")} alt="" className="post_image"/></a>
             <div className="news_post_content">
@@ -41,6 +52,9 @@ function News() {
               <div className="main_post_link"><a href="https://www.technologyreview.com/2023/01/17/1065026/evs-recycling-batteries-10-breakthrough-technologies-2023/ " target="_blank" rel='noopener noreferrer'>View Full Article</a></div>
             </div>
           </div>
+
+          {/* fourth post */}
+
           <div className="news_posts">
             <a href="https://www.autoweek.com/news/a41822090/states-shooting-for-hydrogen-fuel-cell-hub/ " target="_blank" rel='noopener noreferrer'><img src={require("../assets/news_post_3_img.jpg")} alt="" className="post_image"/></a>
             <div className="news_post_content">
@@ -51,6 +65,9 @@ function News() {
               <div className="main_post_link"><a href="https://www.autoweek.com/news/a41822090/states-shooting-for-hydrogen-fuel-cell-hub/ " target="_blank" rel='noopener noreferrer'>View Full Article</a></div>
             </div>
           </div>
+
+          {/* fifth post */}
+
           <div className="news_posts">
           <a href="https://hydrogen-central.com/the-most-abundant-chemical-universe-could-become-hot-commodity-hydrogen-fuel-cells-have-some-cost-barriers-upside-transportation-powering-homes-huge/ " target="_blank" rel='noopener noreferrer'><img src={require("../assets/news_post_4.png")} alt="" className="post_image"/></a>
             <div className="news_post_content">
@@ -61,6 +78,9 @@ function News() {
               <div className="main_post_link"><a href="https://hydrogen-central.com/the-most-abundant-chemical-universe-could-become-hot-commodity-hydrogen-fuel-cells-have-some-cost-barriers-upside-transportation-powering-homes-huge/ " target="_blank" rel='noopener noreferrer'>View Full Article</a></div>
             </div>
           </div>
+
+          {/* sixth post */}
+
           <div className="news_posts">
           <a href="https://www.scmp.com/comment/opinion/world/article/3191039/how-clean-energy-transition-exposes-world-new-vulnerabilities " target="_blank" rel='noopener noreferrer'><img src={require("../assets/news_post_5.png")} alt="" className="post_image"/></a>
             <div className="news_post_content">

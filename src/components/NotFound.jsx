@@ -1,4 +1,7 @@
 
+// This page is displayed if the user visits a subpage of the website that does not exist
+//Eg - greatplainsventures.com/shshdfkf 
+
 import { Link } from "react-router-dom"
 import {FaArrowCircleLeft} from "react-icons/fa"
 

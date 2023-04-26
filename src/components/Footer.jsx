@@ -1,8 +1,15 @@
+
+// This is the footer page. It has two sections - first footer and last footer 
+
 import { Link } from "react-router-dom"
+
+// Importing links for social media icons
+
 import {FaLinkedin, FaTwitter, FaYoutube} from "react-icons/fa"
 
 function Footer() {
   
+  // removes privacy notice message after the "OK" button is clicked
 
   const handleClick = () =>{
     const cont = document.getElementById("privacy_notice");
@@ -11,10 +18,19 @@ function Footer() {
 
   return (
     <section className="footer_section">
+
+      {/* first footer - has logo, explore links and quick links  */}
+
       <div className="footer_flex">
         <div className="gpp_logo_img">
+
+          {/* gpp logo */}
+
           <img src={require("../assets/GPP_Logo.jpg")} alt="" className="gpp_logo_footer" />
         </div>
+
+        {/* explore links section */}
+
         <div className="explore_links">
           <h1>Explore</h1>
           <div className="footer_short_underline"></div>
@@ -24,6 +40,9 @@ function Footer() {
           <a href="https://hydrogen-central.com/the-most-abundant-chemical-universe-could-become-hot-commodity-hydrogen-fuel-cells-have-some-cost-barriers-upside-transportation-powering-homes-huge/ " target="_blank" rel='noopener noreferrer'>The most abundant chemical in the universe could become a hot commodity</a>
           <a href="https://www.scmp.com/comment/opinion/world/article/3191039/how-clean-energy-transition-exposes-world-new-vulnerabilities " target="_blank" rel='noopener noreferrer'>How the clean energy transition exposes the world to new vulnerabilities</a>
         </div>
+
+        {/* quick links section */}
+
         <div className="gpp_contact">
           <h1>Quick Links</h1>
           <div className="footer_short_underline"></div>
@@ -35,7 +54,9 @@ function Footer() {
           <Link to="/partners" className="footer_links">Partners</Link>
         </div>
       </div>
-  
+
+      {/* last footer - has social media icons, address, pitch deck, privacy message */}
+
       <div className="footer_footer">
         <div className="footer_separator"></div>
         <div className="footer_flex_2">
@@ -49,6 +70,8 @@ function Footer() {
             </div>
           </div>
 
+          {/* GPP address */}
+
           <div className="footer_contact">
             <h1>Great Plains Partners</h1>
             <div className="footer_short_underline"></div>
@@ -57,6 +80,9 @@ function Footer() {
             <p className="address">Manhattan, KS 66502-3373</p>
             <Link to="/contact" className="footer_contact_link">Contact Us</Link>
           </div>
+
+          {/* pitch deck section */}
+
           <div className="footer_pitch">
             <h1 className="pitch_heading">Send us your pitch deck</h1>
             <div className="footer_short_underline"></div>
@@ -67,7 +93,9 @@ function Footer() {
           </div>
         </div>
       </div>
-  
+
+    {/* privacy message */}
+
       <div className="privacy_policy_notice" id="privacy_notice">
         <p>By visiting our website, you agree to our <Link to="/privacy-policy" className="privacy_policy_link">Privacy Policy</Link><button className="privacy_policy_button" onClick={handleClick} >Ok</button></p>
       </div>

@@ -1,5 +1,5 @@
 
-// style the details and summary tag nicely
+// This is the team page
 
 import ScrollToTop from "react-scroll-to-top"
 
@@ -15,6 +15,9 @@ function Team() {
       </div>
 
       <div className="team_flex">
+
+        {/* Robert */}
+
         <div className="robert">
           <div className="team_member_content">
             <img src={require('../assets/Robert Happeny.jpg')} alt="" />
@@ -28,6 +31,9 @@ function Team() {
             </details>
           </div>
         </div>
+
+        {/* Art */}
+
         <div className="art">
           <div className="team_member_content">
             <img src={require('../assets/Art DeGroat.jpg')} alt="" />
@@ -41,6 +47,9 @@ function Team() {
             </details>
           </div>
         </div>
+
+        {/* Dharish */}
+
         <div className="dharish">
           <div className="team_member_content">
             <img src={require('../assets/Dharish Totiger.jpg')} alt="" />
@@ -54,6 +63,9 @@ function Team() {
             </details>
           </div>
         </div>
+
+        {/* Mark */}
+
         <div className="mark">
           <div className="team_member_content">
             <img src={require('../assets/Mark Niederhaus.jpg')} alt="" />

@@ -1,4 +1,6 @@
 
+// This is the strategy page
+
 import ScrollToTop from "react-scroll-to-top"
 
 function Strategy() {

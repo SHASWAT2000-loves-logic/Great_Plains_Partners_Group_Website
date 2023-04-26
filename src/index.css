@@ -1,6 +1,9 @@
 
 
-
+/* Roboto is the default font family */
+/* Raleway is used only for overlay headings */
+/* Ruda is used for content */
+/* Noto is used for the headings everywhere */
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
@@ -9,6 +12,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Ruda:wght@400;500;700&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Ruda:wght@400;500;700&display=swap');
+
+/* CSS reset, removing all default browser styles */
 
 *{
   margin:0;
@@ -20,9 +25,15 @@ html, body{
   font-family: 'Roboto', sans-serif;
   background-color: #f1f1f1;
 }
+
+/* removing the horizontal scrollbar */
+
 body{
   overflow-x: hidden;
 }
+
+/* storing theme colors of the website */
+
 :root{
   /* --website_main_theme: #037291; */
   --website_main_theme: rgb(121, 50, 56);
@@ -30,6 +41,9 @@ body{
   /* --website_sec_theme: rgb(165, 75, 84); */
   --website_sec_theme: #9C4C56;
 }
+
+/* navbar is at the top right */
+
 .navbar {
   display: flex;
   align-items: center;
@@ -44,6 +58,7 @@ body{
   z-index: 5;
 }
 
+/* gpp logo at the top left */
 
 .gpp_logo{
   /* width: 450px; */
@@ -54,11 +69,16 @@ body{
   margin-right: 120px;
 }
 
+/* styling the links in the navbar */
+
 .navbar ul{
   display: flex;
   list-style: none;
   margin-right: 70px;
 }
+
+/* styling the active link aka the link/page the user is currently on */
+
 .active-style{
   font-size: 20px;
   display: inline-block;
@@ -75,6 +95,9 @@ body{
 .active-style:hover{
   border-bottom: var(--website_sec_theme) 2px solid;
 }
+
+/* styling the individual links  */
+
 .menu_item{
   font-size: 20px;
   display: inline-block;
@@ -93,6 +116,9 @@ body{
   border-bottom: var(--website_sec_theme) 2px solid;
   font-weight: bold;
 }
+
+/* styling the contact link */
+
 .contact_link{
   text-transform: uppercase;
   font-size: 15px;
@@ -112,6 +138,8 @@ body{
   transform: scale(1.1);
 }
 
+/* styling the video of the website */
+
 video{
   width: 100%;
   height: 100%;
@@ -121,6 +149,9 @@ video{
   left: 0px;
   /* overflow-y: hidden; */
 }
+
+/* creating the overlay effect */
+
 .home_section {
   height: 87.5vh;
   margin-top: 101.4px;
@@ -139,6 +170,9 @@ video{
   height:100%;
   /* overflow-y: hidden; */
 }
+
+/* styling the general content in the home page */
+
 .home_content{
   height:100%;
   display: flex;
@@ -208,6 +242,8 @@ video{
   margin-bottom: 60px;
 }
 
+/* styling the about summary section */
+
 .about_summary{
   padding: 50px;
 }
@@ -244,6 +280,9 @@ video{
   object-fit: contain;
   margin-left: 100px;
 }
+
+/* styling the portfolio summary section */
+
 .portfolio_summary{
   background-color: var(--website_main_theme);
   padding-bottom: 50px;
@@ -366,7 +405,7 @@ video{
   margin-bottom: 50px;
 }
 
-
+/* styling the news summary section */
 
 .news_summary{
   padding-top: 70px;
@@ -446,6 +485,7 @@ video{
   margin-bottom: 35px;
 }
 
+/* creating the overlays for all the other subpages of the website */
 
 .about_section, 
 .team_section, 
@@ -517,7 +557,7 @@ video{
   font-family: 'Raleway', sans-serif; 
 }
 
-
+/* styling the about page */
 
 .about_page_content{
   margin-top: 120px;
@@ -539,6 +579,7 @@ video{
   height: 385px;
   /* height: 445px; */
   perspective: 1000px;
+  -webkit-perspective: 1000px;
   text-align: justify;
 }
 
@@ -548,10 +589,13 @@ video{
   height: 100%;
   text-align: center;
   transition: transform 1s ease-in-out;
+  -webkit-transition: transform 1s ease-in-out;
   transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   backface-visibility: hidden;
-  -moz-backface-visibility: hidden;
+  /* -moz-backface-visibility: hidden; */
+  -webkit-backface-visibility: hidden;
 }
 
 .flip-card:focus {
@@ -561,6 +605,7 @@ video{
 .flip-card:hover .flip-card-inner,
 .flip-card:focus .flip-card-inner{
   transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
 }
 
 .flip-card-front,
@@ -586,6 +631,7 @@ video{
   background-color: var(--website_main_theme);
   color: #fff;
   transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
   z-index: 1;
   display: flex;
   justify-content: center;
@@ -602,6 +648,7 @@ video{
   color:#fff;
 }
 
+/* styling the content of the individual cards */
 
 .card_1{
   margin-left: 70px;
@@ -627,6 +674,7 @@ video{
   opacity: 0.5;
 }
 
+/* styling the strategy page */
 
 .strategy_heading{
   line-height: 1.5;
@@ -687,6 +735,7 @@ video{
   margin-bottom: 60px;
 }
 
+/* styling the portfolio page */
 
 .portfolio_heading{
   line-height: 1.5;

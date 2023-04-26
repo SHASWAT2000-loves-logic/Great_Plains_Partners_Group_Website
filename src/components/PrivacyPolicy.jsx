@@ -1,4 +1,6 @@
 
+// This is the privacy policy page and is displayed when the user clicks on the Privacy Policy link in the message at the bottom 
+
 function PrivacyPolicy() {
   return (
     <section className="privacy_policy">

@@ -1,3 +1,5 @@
+// This component creates the button at the bottom right that when clicked takes the user to the top of the page
+
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 

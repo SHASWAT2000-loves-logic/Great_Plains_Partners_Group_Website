@@ -1,4 +1,7 @@
 
+
+// This is the partners page
+
 import ScrollToTop from "react-scroll-to-top"
 
 
