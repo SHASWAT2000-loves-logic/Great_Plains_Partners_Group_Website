@@ -579,7 +579,6 @@ video{
   height: 385px;
   /* height: 445px; */
   perspective: 1000px;
-  -webkit-perspective: 1000px;
   text-align: justify;
 }
 
@@ -590,11 +589,9 @@ video{
   text-align: center;
   transition: transform 1s ease-in-out;
   transform-style: preserve-3d;
-  -webkit-transform-style: preserve-3d;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
-
+  backface-visibility: hidden;
 }
 
 .flip-card:focus {
