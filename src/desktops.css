@@ -3,12 +3,12 @@
     width: 45%;
    }
    .team_flex img{
-    height: 400px;
+    height: 500px;
    }
    .contact_content{
     margin-right: 270px;
   }
   .about_summary img{
-    margin-left: 270px;
+    margin-left: -200px;
   }
 }
