@@ -62,7 +62,8 @@ body{
 
 .gpp_logo{
   /* width: 450px; */
-  width: 65%;
+  /* width: 65%; */
+  width: 55%;
   object-fit: cover;
   margin-left: 50px;
   margin-top: 10px;
@@ -572,64 +573,7 @@ video{
   display: flex;
 }
 
-/* .flip-card { */
-  /* background-color: transparent; */
-  /* width: 600px; */
-  /* height: 385px; */
-  /* height: 445px; */
-  /* perspective: 1000px; */
-  /* text-align: justify; */
-/* } */
-
-/* .flip-card-inner {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  transition: transform 1s ease-in-out;
-  transform-style: preserve-3d;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-}
-
-.flip-card:focus {
-    outline: 0;
-}
-
-.flip-card:hover .flip-card-inner,
-.flip-card:focus .flip-card-inner{
-  transform: rotateY(180deg);
-}
-
-.flip-card-front,
-.flip-card-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-}
-
-.flip-card-front {
-  background-color: #fff;
-  color: black;
-  z-index: 2;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-/* .flip-card-front img{
-  margin-bottom: 30px;
-} */
-/* .flip-card-back {
-  background-color: var(--website_main_theme);
-  color: #fff;
-  transform: rotateY(180deg);
-  z-index: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */
+/* card container */
 
 .flip-card {
   background-color: transparent;
@@ -661,6 +605,8 @@ video{
   backface-visibility: hidden;
 }
 
+/* front side of card */
+
 .flip-card-front {
   background-color: #fff;
   color: black;
@@ -672,6 +618,8 @@ video{
 .flip-card-front img{
   margin-bottom: 30px;
 } 
+
+/* back side of card */
 
 .flip-card-back {
   background-color: var(--website_main_theme);
@@ -862,7 +810,7 @@ video{
   color:var(--website_main_theme);
 }
 
-
+/* styling the team page */
 
 
 .team_heading{
@@ -897,6 +845,9 @@ video{
   display: flex;
   flex-direction: column;
 }
+
+/* styling each individual person */
+
 .mark{
   margin-right: 0px;
 }
@@ -945,7 +896,7 @@ video{
   opacity: 0.5;
 }
 
-
+/* styling partners page */
 
 .partners_content{
   line-height: 1.5;
@@ -991,6 +942,7 @@ video{
 }
 
 
+/* styling news page */
 
 .news_wrapper{
   background-color: #fff;
@@ -1006,6 +958,8 @@ video{
   height: 250px;
   object-fit: cover;
 }
+
+/* styling news posts */
 
 .news_posts{
   background-color: #F6F7FA;
@@ -1085,6 +1039,8 @@ video{
 }
 
 
+/* styling contact page */
+
 .contact_section{
   position: relative;
   top: 101.4px;
@@ -1110,6 +1066,8 @@ video{
 .contact_content p{
   font-size: 20px;
 }
+
+/* styling the contact form */
 
 .contact_form{
   background-color: #fff;
@@ -1197,6 +1155,8 @@ label::after{
   font-weight: 100;
   opacity: 0.5;
 }
+
+/* styling the footer */
 
 .footer_section{
   overflow-x: hidden;
@@ -1318,6 +1278,9 @@ label::after{
   /* width: 450px; */
   width: 90%;
 }
+
+/* styling social media icons */
+
 .linkedIn_icon, .twitter_icon, .youtube_icon{
   font-size: 32px;
   color:var(--website_main_theme);
@@ -1344,6 +1307,8 @@ label::after{
   background-color:#0072b1;
   color:#fff;
 }
+
+/* styling the pitch deck page */
 
 .pitch_deck_section{
   position: relative;
@@ -1396,6 +1361,9 @@ label::after{
   background-color: #fff;
   color:var(--website_sec_theme);
 }
+
+/* styling the not found page */
+
 .not_found{
   display: flex;
   flex-direction: column;
@@ -1432,6 +1400,8 @@ label::after{
 .home_link:hover{
   opacity: 0.8;
 }
+
+/* styling the privacy policy page */
 
 .privacy_policy{
   margin-top: 170px;
@@ -1478,8 +1448,6 @@ label::after{
   position: fixed;
   bottom: 0;
   left: 0;
-  /* background-color: var(--website_main_theme); */
-  /* background-color: #00acee; */
   background-color: #999;
   width: 100vw;
   padding: 10px 0px;
@@ -1498,7 +1466,6 @@ label::after{
   border: none;
   background-color: var(--website_main_theme);
   color:#fff;
-  /* padding: 10px 20px; */
   padding: 5px 10px;
   margin-left: 10px;
   cursor: pointer;

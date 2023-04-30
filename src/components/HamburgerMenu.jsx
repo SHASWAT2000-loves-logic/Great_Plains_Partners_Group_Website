@@ -1,12 +1,23 @@
+/*
+This hamburger menu is displayed only for mobile devices aka width < 500px
+*/
+
 import { Spin as Hamburger } from "hamburger-react";
 import { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import { useLocation } from "react-router-dom";
 function HamburgerMenu() {
+
+  // this is used to check the page on which the user currently is in
+
   let location = useLocation();
   // console.log(location);
+  // stores whether the hamburger menu is clicked or not.
   const [isOpen, setOpen] = useState(false);
   
+  // when the hamburger menu is clicked, this function is called
+  // It checks on which page the user is and according to that, the subpage is displayed
+
   const handleToggle = () =>{
     if(location.pathname==="/" && !isOpen){
       document.querySelector(".home_page").style.display="none";
@@ -107,13 +118,16 @@ function HamburgerMenu() {
       document.querySelector(".footer_section").style.display="block";
     }
     
-   
+  // when the user clicks on any of the navbar links, this function is called
+  // it converts "x" to hamburger symbol and then checks the page on which the user is and displays that by calling the handleToggle function
+
   }
   const handleClick = () =>{
     setOpen((open) => !open);
     handleToggle();
   }
 
+  // if the hamburger symbol is not clicked, then it is shown
 
   if(!isOpen){
     return (
@@ -125,6 +139,8 @@ function HamburgerMenu() {
       </div>
     );
   }
+
+  // when the hamburger symbol is cliced, "x" is shown along with all the navbar links
   else{
 
     return (
