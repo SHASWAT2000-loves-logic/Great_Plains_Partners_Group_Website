@@ -76,8 +76,8 @@ function Footer() {
             <h1>Great Plains Partners</h1>
             <div className="footer_short_underline"></div>
             <p>Great Plains Partners LLC</p> 
-            <p>1800 Kimball Ave-Suite 150</p>
-            <p className="address">Manhattan, KS 66502-3373</p>
+            <p>6021 SW 29th Street Suite A 235</p>
+            <p className="address">Topeka, Kansas 66614</p>
             <Link to="/contact" className="footer_contact_link">Contact Us</Link>
           </div>
 
