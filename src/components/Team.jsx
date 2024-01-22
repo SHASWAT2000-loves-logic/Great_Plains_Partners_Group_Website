@@ -32,21 +32,6 @@ function Team() {
           </div>
         </div>
 
-        {/* Art */}
-
-        <div className="art">
-          <div className="team_member_content">
-            <img src={require('../assets/Art DeGroat.jpg')} alt="" />
-            <h2 className="name">Dr. Art DeGroat</h2>
-            <p className="position">Co-Founder & Managing Partner</p>
-            <details>
-              <summary className="about_people">About Art</summary>
-                <p className="bio">Dr. Art DeGroat is a nationally recognized leader in military related economic development and innovation, a scholar of adult development and human performance and a senior administrator at a major public research university. This combat-decorated military officer directs the Office of Military Affairs and Innovation Center at Kansas State University. He is recognized by three U.S. Secretaries of Defense for his achievements in the defense sector.</p>
-                <br />
-                <p className="bio">As founder and principle of Invictus Consulting LLC, Art has assisted 13 major companies adapt their talent acquisition and management systems to capitalize on transitioning military human capital. Art holds a Bachelors’ degree in Public Policy from Seton Hall University,  Masters degrees in both  Military Arts & Science and Adult Learning & Leadership as well as a Doctorate degree in Educational Leadership from Kansas State University. He serves on boards of several nationally prominent military and veteran service organizations.</p>
-            </details>
-          </div>
-        </div>
 
         {/* Dharish */}
 
