@@ -1,7 +1,6 @@
 
 **Company website** - https://greatplainsventures.com/
 
-I was authorized by the CEO to show the code for this previous version of the company website that I built. The new website is in progress... 
 
 # Getting Started with Create React App
 
